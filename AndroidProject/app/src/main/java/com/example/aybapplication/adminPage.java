@@ -42,8 +42,7 @@ public class adminPage extends AppCompatActivity {
         setContentView(R.layout.activity_admin_page);
 
         database = FirebaseDatabase.getInstance();
-        mref = database.getReference();
-        //
+        mref = database.getReference("https://aybapplication.firebaseio.com");
         mref.setValue("Hi");
         //mDatabase = FirebaseDatabase.getInstance().getReference();
         //FirebaseDatabase database = FirebaseDatabase.getInstance();
