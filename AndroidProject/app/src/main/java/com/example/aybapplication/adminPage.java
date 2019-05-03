@@ -31,15 +31,17 @@ public class adminPage extends AppCompatActivity {
     private RadioButton large;
     private RadioButton xlarge;
 
+    FirebaseDatabase database = FirebaseDatabase.getInstance();
+    DatabaseReference myRef;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_admin_page);
 
-        //FirebaseDatabase database = FirebaseDatabase.getInstance();
-        //DatabaseReference myRef = database.getReference("https://aybapplication.firebaseio.com");
-        //myRef.setValue("Hello");
+
+        myRef = database.getReference();
+        myRef.setValue("Hello");
 
         addPerson = (Button) findViewById(R.id.addPersonButton);
         addTshirt = (Button) findViewById(R.id.addTshirtButton);
