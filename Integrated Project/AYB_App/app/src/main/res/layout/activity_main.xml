@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/backgroundimage"
+    android:layout_centerVertical="true"
+    >
+
+    <Button
+        android:id="@+id/login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        android:layout_alignParentRight="true"
+        android:gravity="center"
+        android:onClick="LPage"
+        android:text="Login"
+        android:background="@android:color/transparent"
+        android:textColor="#FFF"
+        android:textSize="20dp"
+        tools:layout_editor_absoluteX="161dp"
+        tools:layout_editor_absoluteY="232dp"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="    Go to Admin Page    "
+        android:background="@drawable/mybutton"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:id="@+id/adminPageButton"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        >
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/logo"
+            android:layout_marginTop="60dp"
+            />
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Please Select An AYB Activity"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:textSize="28dp"
+            android:gravity="center"
+            android:textColor="#FFF"
+            android:layout_margin="30dp"
+            />
+
+        <Button
+            android:id="@+id/Aghatha"
+            android:layout_width="250dp"
+            android:layout_height="80dp"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="30dp"
+            android:background="@drawable/mybutton"
+            android:gravity="center"
+            android:onClick="Apage"
+            android:text="إغاثة"
+            android:textColor="#c40b13"
+            android:textSize="40dp"
+            tools:layout_editor_absoluteX="10dp"
+            tools:layout_editor_absoluteY="369dp"
+            android:shadowColor="#fff"
+
+            />
+
+        <Button
+            android:id="@+id/Troos"
+            android:layout_width="250dp"
+            android:layout_height="80dp"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="30dp"
+            android:background="@drawable/mybutton"
+            android:gravity="center"
+            android:onClick="Tpage"
+            android:text="تروس"
+            android:textColor="#c40b13"
+            android:textSize="40dp"
+            tools:layout_editor_absoluteX="10dp"
+            tools:layout_editor_absoluteY="369dp" />
+
+    </LinearLayout>
+</RelativeLayout>
