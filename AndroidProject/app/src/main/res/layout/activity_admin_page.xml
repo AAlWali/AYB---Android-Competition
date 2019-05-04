@@ -36,6 +36,7 @@
         android:layout_marginLeft="30dp"
         android:layout_marginRight="30dp"
         android:text="Add Person"
+        android:background="@drawable/mybutton"
         android:layout_marginBottom="100dp"
         android:id="@+id/addPersonButton"/>
 
@@ -180,6 +181,7 @@
         android:layout_marginLeft="30dp"
         android:layout_marginRight="30dp"
         android:text="Add T-Shirt"
+        android:background="@drawable/mybutton"
         android:id="@+id/addTshirtButton"/>
 
 </LinearLayout>
