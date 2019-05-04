@@ -10,6 +10,11 @@ public class Service {
 
     public static LinkedList<Service> services = new LinkedList<Service>();
 
+    public Service(String serviceDetails, boolean acquired)
+    {
+        this.details = serviceDetails;
+        this.acquired = acquired;
+    }
     public static LinkedList<Service> filterBySize(boolean acq)
     {
         LinkedList<Service> returnable = new LinkedList<Service>();

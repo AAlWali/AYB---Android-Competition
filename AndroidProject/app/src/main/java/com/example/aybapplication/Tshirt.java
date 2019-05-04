@@ -19,6 +19,13 @@ public class Tshirt {
         ID++;
         tshirts.add(this);
     }
+    public  Tshirt(String name, float price, String color, String size)
+    {
+        this.name = name;
+        this.price = price;
+        this.color = color;
+        this.size = size;
+    }
     public static LinkedList<Tshirt> filterByColor(String color)
     {
         LinkedList<Tshirt> returnable = new LinkedList<Tshirt>();

@@ -11,7 +11,7 @@
 
     <EditText
         android:layout_width="match_parent"
-        android:layout_height="200dp"
+        android:layout_height="wrap_content"
         android:hint="Service Details"
         android:layout_marginRight="15dp"
         android:layout_marginLeft="15dp"
@@ -20,8 +20,8 @@
         android:textStyle="bold"
         android:background="@layout/rounded_border_edittext"
         android:textAlignment="center"
-
         android:id="@+id/serviceDetailsEditText"/>
+
     <CheckBox
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -53,6 +53,19 @@
         android:background="@layout/rounded_border_edittext"
         android:id="@+id/tshirNameEditText"/>
 
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:hint="Price"
+        android:layout_marginRight="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginBottom="15dp"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:background="@layout/rounded_border_edittext"
+        android:id="@+id/priceEditText"/>
+
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -65,25 +78,25 @@
         android:layout_height="wrap_content"
         android:layout_marginLeft="30dp"
         android:orientation="horizontal">
-        <RadioButton
+        <CheckBox
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Black"
             android:paddingRight="10dp"
             android:id="@+id/blackRB"/>
-        <RadioButton
+        <CheckBox
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Blue"
             android:paddingRight="10dp"
             android:id="@+id/blueRB"/>
-        <RadioButton
+        <CheckBox
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Green"
             android:paddingRight="10dp"
             android:id="@+id/greenRB"/>
-        <RadioButton
+        <CheckBox
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Orange"
@@ -97,25 +110,25 @@
         android:layout_marginLeft="31dp"
         android:layout_marginBottom="20dp"
         android:orientation="horizontal">
-        <RadioButton
+        <CheckBox
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Purple"
             android:paddingRight="10dp"
             android:id="@+id/purpleRB"/>
-        <RadioButton
+        <CheckBox
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Red"
             android:paddingRight="10dp"
             android:id="@+id/redRB"/>
-        <RadioButton
+        <CheckBox
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="White"
             android:paddingRight="10dp"
             android:id="@+id/whiteRB"/>
-        <RadioButton
+        <CheckBox
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Yellow"
@@ -135,25 +148,25 @@
         android:layout_marginLeft="30dp"
         android:layout_marginBottom="20dp"
         android:orientation="horizontal">
-        <RadioButton
+        <CheckBox
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Small"
             android:paddingRight="10dp"
             android:id="@+id/smallRB"/>
-        <RadioButton
+        <CheckBox
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Medium"
             android:paddingRight="10dp"
             android:id="@+id/mediumRB"/>
-        <RadioButton
+        <CheckBox
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Large"
             android:paddingRight="10dp"
             android:id="@+id/largeRB"/>
-        <RadioButton
+        <CheckBox
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="XLarge"
